@@ -20,7 +20,6 @@ $Sitewide['Settings']['DB']['Username'] = true;
 $Sitewide['Settings']['DB']['Password'] = true;
 
 if ( !$Sitewide['Database']['Connection'] ) {
-
 	if ( $Sitewide['Settings']['DB']['Fatal on Error'] ) {
 		?><!DocType html>
 <html>
@@ -39,7 +38,6 @@ if ( !$Sitewide['Database']['Connection'] ) {
 	} else {
 		$Sitewide['Database']['Error'] = mysqli_connect_error($Sitewide['Database']['Connection']);
 	}
-
 } else {
 	$Sitewide['Database']['Error'] = false;
 }
