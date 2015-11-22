@@ -1,5 +1,4 @@
 # puff-db
-_functions/db/mysqli_fetch_count.php
-_functions/db/mysqli_fetch_once.php
+_functions/db/*
 _puff/hooks/preload/connect-to-database.php
 _puff/settings/db.php
