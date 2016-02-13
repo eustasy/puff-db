@@ -1,4 +1,4 @@
 # puff-db
 _functions/db/*
-_puff/hooks/preload/connect-to-database.php
-_puff/settings/db.php
+_hooks/preload/connect-to-database.php
+_settings/db*
