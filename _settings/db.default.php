@@ -15,5 +15,5 @@ $Sitewide['Settings']['DB']['Default Table']            = 'PuffDB';
 // true to stop processing past that point.
 $Sitewide['Settings']['DB']['Fatal on Error']           = false;
 
-// DB Version
+// Version
 $Sitewide['Version']['DB'] = '0.4';
