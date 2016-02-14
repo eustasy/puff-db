@@ -1,6 +1,6 @@
 <?php
 
-////	Puff DB
+////	Puff DB Settings
 //
 // The hostname for your database server.
 $Sitewide['Settings']['DB']['Hostname']                 = 'localhost';
@@ -16,4 +16,4 @@ $Sitewide['Settings']['DB']['Default Table']            = 'PuffDB';
 $Sitewide['Settings']['DB']['Fatal on Error']           = false;
 
 // DB Version
-$Sitewide['Version']['DB'] = '0.3';
+$Sitewide['Version']['DB'] = '0.4';
