@@ -12,6 +12,7 @@ _libs/here-miss.php
 ## Files
 .gitignore-core
 sitemap.xml
+sitemap_*.xml
 ARCHITECTURE.md
 api/csp_report.php
 ### Assets
