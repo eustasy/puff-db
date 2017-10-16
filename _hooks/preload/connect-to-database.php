@@ -26,9 +26,9 @@ if ( !$Sitewide['Database']['Connection'] ) {
 		<title>Puff: Fatal Error</title>
 	</head>
 	<body>
-		<h1>Puff: Fatal Error</h1>
+		<h1 id="puff--fatal-error">Puff: Fatal Error</h1>
 		<p>Puff has encountered a fatal error while connecting and cannot continue.</p>
-		<h3>Connection Error: &quot;<?php echo mysqli_connect_error($Sitewide['Database']['Connection']); ?>&quot;</h3>
+		<h3 id="puff--connection-error--details">Connection Error: &quot;<?php echo mysqli_connect_error($Sitewide['Database']['Connection']); ?>&quot;</h3>
 	</body>
 </html><?php
 		exit;
