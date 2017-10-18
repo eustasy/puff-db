@@ -16,4 +16,4 @@ $Sitewide['Settings']['DB']['Default Table']            = 'PuffDB';
 $Sitewide['Settings']['DB']['Fatal on Error']           = false;
 
 // Version
-$Sitewide['Version']['DB'] = '0.4';
+$Sitewide['Version']['DB'] = '0.5.0';
